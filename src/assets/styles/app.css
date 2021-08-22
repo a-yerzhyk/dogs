@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.favorite-icon {
+    height: 26px;
+    width: 29px;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.heart-image {    
+    mask: url('~@/assets/icons/heart.svg') no-repeat center;
+}
+
+.heart-image-filled {
+    mask: url('~@/assets/icons/heart-filled.svg') no-repeat center;
+}
+
+.empty-page-text {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
